@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <style>
+        .logo_text {
+            font-family: "Fascinate", system-ui;
+            font-weight: 300;
+            font-style: normal;
+            }
+
+    </style>
+    <title>Navbar 종합예제</title>
+</head>
+<body style="height: 1500px;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="https://www.daum.net"><img src="./bee-256x256.gif" alt="" width="50px" height="30px"><span class="logo_text">Centum Kim</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Resum</a></li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" role="button" aria-expanded="false" href="">Portfolio</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href=""></a>디자인</li>
+                            <li><a class="dropdown-item" href=""></a>영 상</li>
+                            <li><a class="dropdown-item" href=""></a>피그마</li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href=""></a>Something else here</li>
+                        </ul>
+                    
+                    
+                    
+                    </li>
+                
+
+
+                    <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+                </ul>
+                <form class="d-flex">
+                    <input type="search" class="form-control me-2" placeholder="검색하세요">
+                    <button type="submit" class="btn btn-outline-success" >Search</Search> </button>
+                </form>
+            </div>
+
+
+        </div>
+
+    </nav>
+
+    <div class="container mt-3">
+        
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
