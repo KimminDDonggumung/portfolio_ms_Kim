@@ -1,2 +1,2 @@
-# portfolio_ms_Kim
+# KTY
 김민성 포트폴리오
